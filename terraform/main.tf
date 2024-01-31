@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "nn-tfbackend-RG"
-    storage_account_name = "nntfgactionsbackend786"
-    container_name       = "tfstatefile"
+    resource_group_name  = "nn-az-700"
+    storage_account_name = "nntf786"
+    container_name       = "tfstatefile2024"
     key                  = "dev.terraform.tfstate"
   }
 }
